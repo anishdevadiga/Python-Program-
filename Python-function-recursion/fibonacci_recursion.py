@@ -18,6 +18,7 @@ def fibo_series(num,count=0,result=[]):
 #end
 
 
+
 n=int(input("Enter thee no of terms:-"))
 if n<0:
     print("Invalid input,enter postitve number only")
@@ -26,7 +27,4 @@ else:
     list_fibo=fibo_series(n)
     print(list_fibo)
 
-
-    
-    
 
